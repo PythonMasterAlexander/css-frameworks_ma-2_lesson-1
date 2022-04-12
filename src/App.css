@@ -1,0 +1,31 @@
+.body-container, .main__card-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.main__card-container {
+  height: fit-content;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.main__card-container:hover {
+  box-shadow: none;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+h3 {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.main__card-container p {
+  background-color: var(--white-color);
+  margin: 0;
+  padding: 20px;
+}

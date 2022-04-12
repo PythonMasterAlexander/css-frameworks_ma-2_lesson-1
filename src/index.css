@@ -1,4 +1,13 @@
 :root {
   --background-color: #EBEBEB;
   --footer-background-color: #626262;
+  --primary-color: #2DAA88;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  margin: 0;
 }
