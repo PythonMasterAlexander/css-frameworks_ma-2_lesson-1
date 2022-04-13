@@ -1,18 +1,19 @@
 body {
-  background-color: var(--background-color);
+  background-color: $background-color;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
   margin: 0;
 }
 
-.body-container, .main__card-container {
+.page-wrapper, .main__card-container {
   max-width: 90%;
   margin: 0 auto;
 }
 
 .main__card-container {
-  height: fit-content;
+  background-color: $white-color;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  height: 400px;
 }
 
 .main__card-container:hover {
